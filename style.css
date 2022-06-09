@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/* ---------- Generel style ----------  */
+/* ---------- GENERELLE STYLES ----------  */
 
 img {
   max-width: 100%;
@@ -18,23 +18,44 @@ h2 {
   font-family: "Cabin", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 100%;
+  font-size: 1rem;
   letter-spacing: 4px;
-  padding: 3% 0%;
-  text-align: center;
 }
 
-/* ----------- header ----------- */
+h1 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 4px;
+}
+
+p {
+  line-height: 1.6rem;
+  font-size: 1rem;
+  font-family: lato, sans-serif;
+  font-weight: 300;
+}
+
+/* ----------- HEADER NAVIGATIOM ----------- */
 
 header {
   display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10px;
+  padding: 20px 15px;
 }
 
 .logo {
   cursor: pointer;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 4px;
 }
 
 .menu {
@@ -42,7 +63,7 @@ header {
   font-family: "Cabin", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 190%;
+  font-size: 2rem;
   letter-spacing: 4px;
 }
 
@@ -77,29 +98,84 @@ a::after {
 
 a:hover::after {
   opacity: 1;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
+
+/* ----------- FORSIDE INDEX.HTML ----------- */
 
 .sektion1 {
   padding-left: 10%;
   padding-right: 10%;
 }
 
+.portfolio_tekst {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 100%;
+  letter-spacing: 4px;
+  padding: 3% 0%;
+  text-align: center;
+}
+
 /* om mig baggrunds billede*/
 
 .om_mig_container {
-  background-image: url(img/Artboard.jpg);
+  background-image: url(img/Artboard_2.jpg);
   background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: auto;
-  height: 600px;
+  height: 1000px;
+  padding-left: 10%;
+  padding-right: 35%;
+  padding-top: 15%;
 }
 
-.portfolio_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
+.om_mig_container h1,
+p {
+  padding-bottom: 15px;
 }
 
-.container1 {
-  grid-column: 1 / span 2;
+.om_mig_container h2 {
+  padding-bottom: 5px;
 }
+
+@media (min-width: 750px) {
+  .om_mig_container {
+    background-image: url(img/Artboard.jpg);
+    background-position: 100%;
+    width: auto;
+    height: 600px;
+  }
+
+  .portfolio_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .container1 {
+    grid-column: 1 / span 2;
+  }
+}
+
+.om_knap {
+  border: 3px;
+  border-style: solid;
+  padding: 6px 15px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 4px;
+}
+
+.om_knap:hover {
+  color: #ffffff;
+  transition: 0.2s ease-in-out;
+}
+
+/* ----------- OM MIG ----------- */
+
+/* ----------- OM MIG ----------- */
