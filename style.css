@@ -8,12 +8,36 @@
   box-sizing: border-box;
 }
 
+/* ---------- Generel style ----------  */
+
 img {
   max-width: 100%;
 }
 
-/* header */
-nav {
+h2 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 100%;
+  letter-spacing: 4px;
+  padding: 3% 0%;
+  text-align: center;
+}
+
+/* ----------- header ----------- */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.menu {
   list-style: none;
   font-family: "Cabin", sans-serif;
   font-weight: 700;
@@ -22,26 +46,52 @@ nav {
   letter-spacing: 4px;
 }
 
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  transition: 0.3s ease 0s;
+}
+
 ul {
   display: flex;
   justify-content: space-between;
-  justify-content: flex-end;
   gap: 40px;
 }
 
-header a {
-  display: flex;
+a {
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  background-color: #f6dfe4;
+  height: 5px;
+  width: 100%;
+  left: 0;
+  bottom: -5px;
+  opacity: 0;
+}
+
+a:hover::after {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
 }
 
 .sektion1 {
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* om mig baggrunds billede*/
 
 .om_mig_container {
-  display: grid;
+  background-image: url(img/Artboard.jpg);
+  background-position: 100%;
+  width: auto;
+  height: 600px;
 }
 
 .portfolio_grid {
