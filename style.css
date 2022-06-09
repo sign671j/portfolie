@@ -1,0 +1,51 @@
+* {
+  all: unset;
+
+  display: revert;
+
+  cursor: revert;
+
+  box-sizing: border-box;
+}
+
+/* header */
+
+nav {
+  list-style: none;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 190%;
+  letter-spacing: 4px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+header a {
+  display: flex;
+}
+
+/* om mig baggrunds billede*/
+
+.om_mig_container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/om-mig.jpg);
+  background-size: cover;
+  background-position: 50%;
+  max-width: none;
+}
+
+.portfolio_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container1 {
+  grid-column: 1 / span 2;
+}
