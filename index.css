@@ -1,0 +1,74 @@
+/* ----------- FORSIDE INDEX.HTML ----------- */
+
+.sektion1 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.portfolio_tekst {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 100%;
+  letter-spacing: 4px;
+  padding: 3% 0%;
+  text-align: center;
+}
+
+/* om mig baggrunds billede*/
+
+.om_mig_container {
+  background-image: url(img/Artboard_2.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 1000px;
+  padding-left: 10%;
+  padding-right: 35%;
+  padding-top: 15%;
+}
+
+.om_mig_container h1,
+p {
+  padding-bottom: 15px;
+}
+
+.om_mig_container h2 {
+  padding-bottom: 5px;
+}
+
+@media (min-width: 750px) {
+  .om_mig_container {
+    background-image: url(img/Artboard.jpg);
+    background-position: 100%;
+    width: auto;
+    height: 600px;
+  }
+
+  .portfolio_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .container1 {
+    grid-column: 1 / span 2;
+  }
+}
+
+.om_knap {
+  border: 3px;
+  border-style: solid;
+  padding: 6px 15px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 4px;
+}
+
+.om_knap:hover {
+  color: #ffffff;
+  transition: 0.2s ease-in-out;
+}
