@@ -37,6 +37,57 @@ p {
   padding-bottom: 5px;
 }
 
+/* kode der får billeder på forside og protfolioside til at skifte */
+.container1 {
+  background-image: url(img/tema_3_blue.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tema3:hover {
+  opacity: 0;
+}
+
+.container2 {
+  background-image: url(img/tema_2_blue.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tema2:hover {
+  opacity: 0;
+}
+
+.container3 {
+  background-image: url(img/tema_4_blue.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tema4:hover {
+  opacity: 0;
+}
+
+.container4 {
+  background-image: url(img/tema_5_blue.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tema5:hover {
+  opacity: 0;
+}
+
+.container5 {
+  background-image: url(img/tema_6_blue.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tema6:hover {
+  opacity: 0;
+}
+
 @media (min-width: 750px) {
   .om_mig_container {
     background-image: url(img/Artboard3.jpg);
