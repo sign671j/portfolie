@@ -1,0 +1,198 @@
+/* ----------- LAYOUT FORSIDE (INDEX.HTML) ----------- */
+
+/* disse koder styrer også layoutet for portfolio.html */
+.portfolio {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.portfolio_tekst {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 100%;
+  letter-spacing: 4px;
+  padding: 3% 0%;
+  text-align: center;
+}
+
+.om_mig_container {
+  background-image: url(img/Artboard_2.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 1000px;
+  padding-left: 10%;
+  padding-right: 35%;
+  padding-top: 18%;
+}
+
+.om_mig_container h1,
+p {
+  padding-bottom: 15px;
+}
+
+.om_mig_container h2 {
+  padding-bottom: 5px;
+}
+
+@media (min-width: 750px) {
+  .om_mig_container {
+    background-image: url(img/Artboard3.jpg);
+    background-position: 100%;
+    width: auto;
+    height: 700px;
+  }
+
+  .portfolio_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+
+  .container1 {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (max-width: 750px) {
+  .om_mig_container h1 {
+    font-size: 1.6rem;
+  }
+}
+
+/* koder for om knappen på forsiden*/
+
+.om_knap {
+  border: 3px;
+  border-style: solid;
+  padding: 6px 15px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 4px;
+}
+
+.om_knap:hover {
+  color: #ffffff;
+  transition: 0.2s ease-in-out;
+}
+
+/* ----------- LAYOUT OM MIG (OM_MIG.HTML) ----------- */
+
+.potraet_container {
+  background-image: url(img/artboard5.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 400px;
+  padding-left: 10%;
+  padding-right: 35%;
+  padding-top: 44%;
+}
+
+.om_mig_tekst_container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 615px) and (max-width: 950px) {
+  .potraet_container {
+    padding-top: 16%;
+  }
+}
+
+@media (min-width: 950px) {
+  .potraet_container {
+    background-image: url(img/artboard5.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 700px;
+    padding-left: 20%;
+    padding-right: 35%;
+    padding-top: 18%;
+  }
+
+  .om_mig_tekst_container {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+}
+
+.om_mig_tekst_container h1,
+p {
+  padding-bottom: 15px;
+}
+
+.om_mig_tekst_container h2 {
+  padding: 3% 0;
+  text-align: center;
+}
+
+.portfolio_knap {
+  border: 3px;
+  border-style: solid;
+  padding: 6px 15px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.portfolio_knap:hover {
+  color: #f6dfe4;
+  transition: 0.2s ease-in-out;
+}
+
+/* ----------- LAYOUT PORTFOLIO (PORTFOLIO.HTML) ----------- */
+
+.portfolio_container {
+  background-image: url(img/portfolio_billede.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 200px;
+  padding-left: 10%;
+  padding-right: 35%;
+  padding-top: 18%;
+}
+
+@media (min-width: 550px) {
+  .portfolio_container {
+    height: 300px;
+  }
+}
+
+@media (min-width: 850px) {
+  .portfolio_container {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .portfolio_container {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .portfolio_container {
+    height: 700px;
+  }
+}
