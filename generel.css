@@ -67,18 +67,32 @@ header {
   letter-spacing: 4px;
 }
 
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+@media (max-width: 650px) {
+  .menu {
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  ul {
+    gap: 15px;
+  }
+}
+
 .menu li {
   display: inline-block;
 }
 
 .menu li a {
   transition: 0.3s ease 0s;
-}
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
 }
 
 .om_mig,

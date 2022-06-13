@@ -17,7 +17,7 @@
 }
 
 .om_mig_container {
-  background-image: url(img/Artboard_2.jpg);
+  background-image: url(img/Artboard_2.webp);
   background-position: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,6 +38,8 @@ p {
 }
 
 /* kode der får billeder på forside og protfolioside til at skifte */
+
+/*
 .container1 {
   background-image: url(img/tema_3_blue.jpg);
   background-size: 100%;
@@ -46,6 +48,7 @@ p {
 
 .tema3:hover {
   opacity: 0;
+  transition: 0.1s ease-in-out;
 }
 
 .container2 {
@@ -56,6 +59,7 @@ p {
 
 .tema2:hover {
   opacity: 0;
+  transition: 0.1s ease-in-out;
 }
 
 .container3 {
@@ -66,6 +70,7 @@ p {
 
 .tema4:hover {
   opacity: 0;
+  transition: 0.1s ease-in-out;
 }
 
 .container4 {
@@ -76,6 +81,7 @@ p {
 
 .tema5:hover {
   opacity: 0;
+  transition: 0.1s ease-in-out;
 }
 
 .container5 {
@@ -86,11 +92,13 @@ p {
 
 .tema6:hover {
   opacity: 0;
+  transition: 0.1s ease-in-out;
 }
+*/
 
 @media (min-width: 750px) {
   .om_mig_container {
-    background-image: url(img/Artboard3.jpg);
+    background-image: url(img/artboard3.webp);
     background-position: 100%;
     width: auto;
     height: 700px;
@@ -135,7 +143,7 @@ p {
 /* ----------- LAYOUT OM MIG (OM_MIG.HTML) ----------- */
 
 .potraet_container {
-  background-image: url(img/artboard5.jpg);
+  background-image: url(img/artboard5.webp);
   background-position: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -160,7 +168,7 @@ p {
 
 @media (min-width: 950px) {
   .potraet_container {
-    background-image: url(img/artboard5.jpg);
+    background-image: url(img/artboard5.webp);
     background-position: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,7 +221,7 @@ p {
 /* ----------- LAYOUT PORTFOLIO (PORTFOLIO.HTML) ----------- */
 
 .portfolio_container {
-  background-image: url(img/portfolio_billede.jpg);
+  background-image: url(img/portfolio_billede.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
