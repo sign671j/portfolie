@@ -255,3 +255,60 @@ p {
     height: 700px;
   }
 }
+
+/* ----------- LAYOUT TEMA2 (TEMA2.HTML) ----------- */
+
+.tema2_billede_container {
+  background-image: url(img/tema2_baggrund.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 200px;
+  padding-left: 10%;
+  padding-right: 35%;
+  padding-top: 18%;
+}
+
+.tema2_tekst_container {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.tema2_grid {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.billede_container1,
+.billede_container2,
+.billede_container3,
+.billede_container4 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+@media (min-width: 750px) {
+  .tema2_billede_container {
+    background-image: url(img/tema2_baggrund.webp);
+    background-position: center;
+    width: auto;
+    height: 700px;
+  }
+
+  .tema2_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/* ----------- LAYOUT TEMA3 (TEMA3.HTML) ----------- */
+
+/* ----------- LAYOUT TEMA4 (TEMA4.HTML) ----------- */
+
+/* ----------- LAYOUT TEMA5 (TEMA5.HTML) ----------- */
+
+/* ----------- LAYOUT TEMA6 (TEMA6.HTML) ----------- */
