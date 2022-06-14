@@ -100,6 +100,13 @@ iframe {
   object-fit: cover;
 }
 
+/* ----------- HR TAG ----------- */
+
+hr {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
 /* ----------- HEADER NAVIGATIOM ----------- */
 
 header {
