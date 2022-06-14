@@ -51,8 +51,7 @@ p {
 .tema3_knap2,
 .tema4_knap,
 .tema5_knap,
-.tema5_knap2,
-.tema6_knap {
+.tema5_knap2 {
   border: 3px;
   border-style: solid;
   padding: 6px 15px;
@@ -81,7 +80,6 @@ p {
 .tema3_knap2:hover,
 .tema4_knap:hover,
 .tema5_knap:hover,
-.tema6_knap:hover,
 .tema5_knap2:hover {
   color: #f6dfe4;
   transition: 0.2s ease-in-out;
