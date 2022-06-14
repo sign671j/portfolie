@@ -63,6 +63,18 @@ p {
   text-align: center;
 }
 
+@media (max-width: 500px) {
+  .cv_knap,
+  .tema2_knap,
+  .tema3_knap,
+  .tema3_knap2,
+  .tema4_knap,
+  .tema5_knap,
+  .tema5_knap2 {
+    font-size: 0.7rem;
+  }
+}
+
 .om_knap {
   border: 3px;
   border-style: solid;
@@ -101,8 +113,22 @@ iframe {
 /* ----------- HR TAG ----------- */
 
 hr {
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+@media (min-width: 500px) {
+  hr {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
+
+@media (min-width: 1100px) {
+  hr {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
 }
 
 /* ----------- HEADER NAVIGATIOM ----------- */
