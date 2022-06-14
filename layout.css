@@ -63,24 +63,6 @@ p {
   }
 }
 
-/* koder for om knappen på forsiden*/
-
-.om_knap {
-  border: 3px;
-  border-style: solid;
-  padding: 6px 15px;
-  font-family: "Cabin", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  letter-spacing: 4px;
-}
-
-.om_knap:hover {
-  color: #ffffff;
-  transition: 0.2s ease-in-out;
-}
-
 /* ----------- LAYOUT OM MIG (OM_MIG.HTML) ----------- */
 
 .potraet_container {
@@ -142,24 +124,9 @@ p {
   text-align: center;
 }
 
-.portfolio_knap {
-  border: 3px;
-  border-style: solid;
-  padding: 6px 15px;
-  font-family: "Cabin", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 1rem;
-  letter-spacing: 4px;
-  text-align: center;
-}
-
-.portfolio_knap:hover {
-  color: #f6dfe4;
-  transition: 0.2s ease-in-out;
-}
-
 /* ----------- LAYOUT PORTFOLIO (PORTFOLIO.HTML) ----------- */
+
+/* disse koder styrer layoutet for top billedet på portfolio.html */
 
 .portfolio_container {
   background-image: url(img/portfolio_billede.webp);
@@ -197,7 +164,9 @@ p {
   }
 }
 
-/* ----------- LAYOUT TEMA2 (TEMA2.HTML) ----------- */
+/* ----------- LAYOUT PORTFOLIO SIDER (TEMA2.HTML) ----------- */
+
+/* disse koder styrer også layoutet på tema2.html, tema3.html, tema4.html, tema5.html og tema6.html */
 
 .tema2_billede_container {
   background-image: url(img/tema2_baggrund.webp);
@@ -284,7 +253,9 @@ p {
 }
 
 .billede_container7_tema4,
-.billede_container8_tema4 {
+.billede_container8_tema4,
+.billede_container5_tema6,
+.billede_container6_tema6 {
   grid-column: span 4;
 }
 
@@ -367,8 +338,7 @@ p {
 
   .tema2_grid,
   .tema3_grid,
-  .tema5_grid,
-  .tema6_grid {
+  .tema5_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -376,7 +346,8 @@ p {
     padding-right: 20%;
   }
 
-  .tema4_grid {
+  .tema4_grid,
+  .tema6_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
@@ -429,39 +400,4 @@ p {
     width: auto;
     height: 700px;
   }
-}
-
-.tema2_knap,
-.tema3_knap,
-.tema3_knap2,
-.tema4_knap,
-.tema5_knap,
-.tema5_knap2,
-.tema6_knap {
-  border: 3px;
-  border-style: solid;
-  padding: 6px 15px;
-  font-family: "Cabin", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 1rem;
-  letter-spacing: 4px;
-  text-align: center;
-}
-
-.tema2_knap:hover,
-.tema3_knap:hover,
-.tema3_knap2:hover,
-.tema4_knap:hover,
-.tema5_knap:hover,
-.tema6_knap:hover,
-.tema5_knap2:hover {
-  color: #f6dfe4;
-  transition: 0.2s ease-in-out;
-}
-
-iframe {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
 }

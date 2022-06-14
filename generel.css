@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/* ---------- GENERELLE STYLES ----------  */
+/* ---------- GENERELLE STYLES FONTS ----------  */
 
 img {
   max-width: 100%;
@@ -35,6 +35,63 @@ p {
   font-size: 1rem;
   font-family: lato, sans-serif;
   font-weight: 300;
+}
+
+/* ---------- GENERELLE STYLES BUTTONS ----------  */
+
+.cv_knap,
+.tema2_knap,
+.tema3_knap,
+.tema3_knap2,
+.tema4_knap,
+.tema5_knap,
+.tema5_knap2,
+.tema6_knap {
+  border: 3px;
+  border-style: solid;
+  padding: 6px 15px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.om_knap {
+  border: 3px;
+  border-style: solid;
+  padding: 6px 15px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 4px;
+}
+
+.cv_knap:hover,
+.tema2_knap:hover,
+.tema3_knap:hover,
+.tema3_knap2:hover,
+.tema4_knap:hover,
+.tema5_knap:hover,
+.tema6_knap:hover,
+.tema5_knap2:hover {
+  color: #f6dfe4;
+  transition: 0.2s ease-in-out;
+}
+
+.om_knap:hover {
+  color: #ffffff;
+  transition: 0.2s ease-in-out;
+}
+
+/* ----------- IFRAME ----------- */
+
+iframe {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
 
 /* ----------- HEADER NAVIGATIOM ----------- */
