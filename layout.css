@@ -108,12 +108,6 @@ p {
   }
 }
 
-@media (max-width: 750px) {
-  h1 {
-    font-size: 1.6rem;
-  }
-}
-
 .om_mig_tekst_container h1,
 p {
   padding-bottom: 15px;
@@ -220,6 +214,24 @@ p {
 .tema6_tekst_container {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.tema2_tekst_container h1,
+.tema3_tekst_container h1,
+.tema4_tekst_container h1,
+.tema5_tekst_container h1,
+.tema6_tekst_container h1 {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 750px) {
+  .tema2_tekst_container h1,
+  .tema3_tekst_container h1,
+  .tema4_tekst_container h1,
+  .tema5_tekst_container h1,
+  .tema6_tekst_container h1 {
+    font-size: 1.5rem;
+  }
 }
 
 .tema2_tekst_container h2,
